@@ -17,8 +17,8 @@
     "manipulation",
     "transpiler"
   ],
-  "bugs": "https://github.com/DistPub/dshell/issues",
-  "main": "index.js",
+  "bugs": "https://github.com/DistPub/postcss-modules-standalone/issues",
+  "main": "index.bundle.min.js",
   "files": [
     "*"
   ],
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DistPub/dshell.git"
+    "url": "https://github.com/DistPub/postcss-modules-standalone.git"
   },
   "author": "Smite Chow",
   "license": "MIT",
