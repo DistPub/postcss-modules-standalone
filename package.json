@@ -1,0 +1,48 @@
+{
+  "name": "postcss-modules-standalone",
+  "version": "1.0.0",
+  "description": "Provides a standalone build of postcss-modules for use in browsers and other non-Node.js environments.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "modules",
+    "css modules",
+    "components",
+    "rework",
+    "preprocessor",
+    "parser",
+    "source map",
+    "transform",
+    "manipulation",
+    "transpiler"
+  ],
+  "bugs": "https://github.com/DistPub/dshell/issues",
+  "main": "index.js",
+  "files": [
+    "*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node browserify.js>index.bundle.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DistPub/dshell.git"
+  },
+  "author": "Smite Chow",
+  "license": "MIT",
+  "engines": {
+    "node": ">=13.2.0"
+  },
+  "devDependencies": {
+    "browserfs": "^1.4.3",
+    "browserify": "^17.0.0",
+    "postcss": "^8.2.6",
+    "postcss-modules": "^4.0.0",
+    "uglifyify": "^5.0.2"
+  },
+  "contributors": [
+    "Smite Chow <xiaopengyou2no1@gmail.com>"
+  ]
+}
