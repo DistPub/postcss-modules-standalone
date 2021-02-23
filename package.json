@@ -1,6 +1,6 @@
 {
   "name": "postcss-modules-standalone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides a standalone build of postcss-modules for use in browsers and other non-Node.js environments.",
   "keywords": [
     "postcss",
