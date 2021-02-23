@@ -22,8 +22,8 @@ or use cdn
 Then you can call postcss:
  
 ```
-const postcss = require('postcss')
-const pm = require('postcss-modules')
+const postcss = require('postcss');
+const pm = require('postcss-modules');
 const fs = require('fs');
 
 fs.writeFileSync('/styles.css', `

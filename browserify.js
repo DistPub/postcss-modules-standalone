@@ -1,5 +1,4 @@
 const browserifyClass = require('browserify');
-const browserfsPath = require.resolve('browserfs');
 const browserifyConfig = {
   // Override Browserify's builtins for buffer/fs/path.
   builtins: Object.assign({}, require('browserify/lib/builtins'), {
@@ -13,7 +12,7 @@ const browserifyConfig = {
     // in a script tag.
     "process": function () { return "require('browserfs/dist/shims/process.js')" },
     'Buffer': function () { return "require('buffer').Buffer" },
-    "BrowserFS": function() { return `require('${browserfsPath}')` }
+    'BrowserFS': function () { return "require('browserfs')" },
   }
 };
 let browserify = browserifyClass(['index.js'], browserifyConfig);
